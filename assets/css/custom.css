@@ -1,0 +1,64 @@
+body{
+
+font-family: 'Darker Grotesque', sans-serif;
+font-size: 25px;
+background: #636363;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+ul{
+	border:1px solid black;
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+h1{
+	color:silver;
+	padding:10px;
+	margin:0;
+}
+
+li{
+	line-height: 35px;
+}
+
+.clicked{
+	color:lightblue;
+	text-decoration: line-through;
+}
+
+span{
+	color:brown;
+	padding-right: 20px;
+	padding-left: 2px;
+	text-align: center;
+	display: inline-block;
+	transition:0.2s linear;
+	opacity: 0.1;
+	width: 0;
+}
+
+li:hover span{
+	opacity: 1.0;
+	width: 20px;
+}
+
+.container{
+	width: 350px;
+	margin:100px auto;
+	box-shadow: 0.7px  0.7px 0.7px 0.35px black;
+}
+input{
+	width: 70%;
+	background-color: #e1f5fe;
+	padding:2px;
+}
+input:focus{
+	background-color: #efebe9;
+}
+.fa-edit{
+	margin-left: 20px;
+}
